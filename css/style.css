@@ -1,0 +1,33 @@
+
+
+
+.col {
+	float: left;
+}
+
+.row::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+
+
+
+/* header */
+
+
+header {
+	background-color: black;
+	color: white;
+}
+
+header .container {
+	width: 100%;
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+nav.col {
+	float: right;
+}
