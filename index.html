@@ -10,89 +10,252 @@
 	<header>
 		<div class="container">
 			<div class="row">
-				<h4 class="col">SIT <span>ON</span> CHAIR</h4>
+				<h4 class="col"><a href="#">SIT <span>ON</span> CHAIR</a></h4>
 				<nav class="col">	
-					<ul>
-						<li>O FIRMIE</li>
-						<li>GALERIA</li>
-						<li>KONTAKT</li>
+					<ul class="menu">
+						<li><a href="#">O FIRMIE</a>
+							<ul class="submenu">
+								<div></div>
+								<li><a href="#">Aktualności</a></li>
+								<li><a href="#">Nasz Team</a></li>
+								<li><a href="#">Historia</a></li>
+							</ul>
+						</li>
+						<li><a href="#">GALERIA</a></li>
+						<li><a href="#">KONTAKT</a></li>
 					</ul>
 				</nav>	
 			</div>
 		</div>
 	</header>
 
-	<section class="slider">
+	<section id="slider">
 		<div class="container">
-			<div class="arrow col"><</div>
-			<div class="chairPic col"></div>
-			<main class="col">
-				<h1>
-					SIT <span>ON</span> OUT <span>CHAIR</span>
-				</h1>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-				</p>
-				<button>ZOBACZ WIĘCEJ</button>
-			</main>
-			<div class="arrow col">></div>
-		</div>
-	</section>
- 
+			<div class="row">
+				<div class="arrow col"><</div>
 
-<!--
+				<div class="chairPic col"></div>
 
+				<main class="col">
+					<h1>
+						SIT <span>ON</span> OUT <span>CHAIR</span>
+					</h1>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+					</p>
+					<button>ZOBACZ WIĘCEJ</button>
+				</main>
 
-	<section class="pics">
-		<div class="container">
-			<div>
-				<div>
-					<h4>Chair CLAIR</h4>
-				</div>
+				<div class="arrow col">></div>
 			</div>
-
-			<div>
-				<div>
-					<h4>Chair MARGARITA</h4>
-				</div>
-			</div>
-
-			<div>
-				<h4>
-					Finds all inputs
-				</h4>
-
-				<p>
-					Finds all inputs that are not checked and highlights the next sibling span. Notice there is no change when clicking checkboxes since on click events have been linked.<br>Notice there is no change whne clicking the checkboxes since no click events have been
-				</p>
-			</div>
-
 		</div>
 	</section>
 
-	<section class="priceList">
+	<section id="picSect">
 		<div class="container">
-			<h3>Cennik</h3>
-			<div class="pricePlan">
-				<div class="topRing">
-					<div class="topRingInside"></div>
+
+			<div class="row">
+
+				<div class="col chairPicOne">
+					<div class="descr">
+						<p>
+							Chair CLAIR
+						</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam facilisis, tellus eget dapibus ultricies, metus nisi consectetur lorem, vitae laoreet magna mauris vel elit.</p>
+					</div>
 				</div>
-				<h3>BASIC PLAN</h3>
-				<div class="roundPrice">
+
+				<div class="col chairPicTwo">
+					<div class="descr">
+						<p>
+							Chair MARGARITA
+						</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam facilisis, tellus eget dapibus ultricies, metus nisi consectetur lorem, vitae laoreet magna mauris vel elit.</p>
+					</div>
+				</div>
+
+				<div class="col chairPicThree">
+					<div class="descr">
+						<p>
+							Finds all inputs
+						</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam facilisis, tellus eget dapibus ultricies, metus nisi consectetur lorem, vitae laoreet magna mauris vel elit.</p>
+					</div>
+				</div>				
+			</div>
+
+		</div>
+	</section>
+
+
+	<section id="priceList">
+
+		<div class="container">
+
+			<div class="row">
+				<p class="col title">
+					CENNIK
+				</p>
+			</div>
+
+
+			<div class="row">
+
+				<div class="col">
+
+					<div class="ring">
+						<div class="ringCenter">
+							
+						</div>
+					</div>
+
+					<h4>BASIC PLAN</h4>
+
+					<div class="ringTwo">
+						<div class="container">
+							<div class="row">
+								<p>85</p>
+								<p>99</p>		
+							</div>
+
+							<div class="row second">
+								<p>PLN/MSC</p>
+							</div>
+						</div>
+					</div>
+
+					<p class="belt">Zakup Towaru + dowóz</p>
+					<p class="belt2">Serwis</p>
+
+					<button>DOŁĄCZ</button>
+
+				</div>
+
+
+
+				<div class="col">
+
+					<div class="ring">
+						<div class="ringCenter">
+							
+						</div>
+					</div>
+
+					<h4>STANDARD PLAN</h4>
+
+					<div class="ringTwo">
+						<div class="container">
+							<div class="row">
+								<p>95</p>
+								<p>99</p>		
+							</div>
+
+							<div class="row second">
+								<p>PLN/MSC</p>
+							</div>
+						</div>
+					</div>
+
+					<p class="belt">Zakup Towaru + dowóz</p>
+					<p class="belt2">Serwis</p>
+					<p class="belt">Gwarancja 5 lat</p>
+
+					<button>DOŁĄCZ</button>
+
+				</div>
+
+				<div class="col">
+
+					<div class="ring">
+						<div class="ringCenter">
+							
+						</div>
+					</div>
+
+					<h4>ADVANCE PLAN</h4>
+
+					<div class="ringTwo">
+						<div class="container">
+							<div class="row">
+								<p>211</p>
+								<p>00</p>		
+							</div>
+
+							<div class="row second">
+								<p>PLN/MSC</p>
+							</div>
+						</div>
+					</div>
+
+					<p class="belt">Zakup Towaru + dowóz</p>
+					<p class="belt2">Serwis</p>
+					<p class="belt">Gwarancja 6 lat</p>
+					<p class="belt2">Porady Projektanta</p>
+
+
+					<button>DOŁĄCZ</button>
+
+				</div>	
+
+			</div>
+
+		</div>
+
+	</section>
+
+
+	<section id="bottom">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<p class="col title">KONTAKT</p>
+				</div>	
+
+				
+
+
+			</div>
+
+			<div class="row">
+				<div class="col">
+					<form>
+						<input type="text" name="name" placeholder="Imię">
+						<input type="text" name="email" placeholder="email">
+						<textarea name="message" placeholder="Wiadomość"></textarea>
+					</form>
+				</div>
+
+				<div class="col">
+					<div class="redChairIcon"></div>
+
+				
+					<form>
+						<div class="checkbox">
+							<input type="checkbox" id="checkInp">
+							<label for="checkInp"></label>
+						</div>
+						<p>Zgadzam się na przetwarzanie<br>danych osobowyc</p>	
+					</form>	
 					
-
+					
+					<button>WYŚLIJ</button>
 				</div>
+			</div>
+
+			<div class="row">
+				<div class="col">Copyright 2014 | All Rights Reserved.- Sit On Chair</div>
+				<div class="col">
+					<a href=""><div class="flickr"></div></a>
+					<a href=""><div class="vimeo"></div></a>
+					<a href=""><div class="pinterest"></div></a>
+					<a href=""><div class="twitter"></div></a>
+				</div>
+
+				<div class="col">SIT <span>ON</span> CHAIR</div>
 			</div>
 		</div>
 	</section>
 
-	<section>
-		
-	</section>
-
-	<footer>
-		
-	</footer>
--->
+ 
 </body>
 </html>
